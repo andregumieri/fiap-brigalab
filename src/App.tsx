@@ -69,13 +69,13 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100">
       {/* Header */}
-      <header className="bg-white shadow-lg">
-        <div className="max-w-4xl mx-auto px-4 py-6">
+      <header className="bg-white shadow-lg" style={{backgroundColor: '#FDF7ED'}}>
+        <div className="max-w-4xl mx-auto px-4 py-6 text-center">
           <h1 className="text-3xl font-bold text-amber-800 text-center">
-            🍫 Brigadeiro Personalizado
+            <img src="https://i.ibb.co/cKbCZB2W/Captura-de-Tela-2025-06-06-a-s-20-19-52.png" width={100} className={"mx-auto"} />
           </h1>
           <p className="text-center text-amber-600 mt-2">
-            Monte seu brigadeiro do jeito que você gosta!
+            Todo amor é doce, você cria, a gente transforma em memórias
           </p>
         </div>
       </header>
